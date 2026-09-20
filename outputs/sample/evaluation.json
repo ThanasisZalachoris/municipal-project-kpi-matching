@@ -1,0 +1,120 @@
+{
+  "baseline": "Unweighted token-set Jaccard overlap; comparative diagnostics only.",
+  "cases": [
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "waste",
+      "fixture_check": "pass",
+      "overlap_top": "waste",
+      "project_id": "bins",
+      "tfidf_top": "waste"
+    },
+    {
+      "actual_decision": "abstain",
+      "expect_abstain": true,
+      "expected_top": null,
+      "fixture_check": "pass",
+      "overlap_top": null,
+      "project_id": "blank",
+      "tfidf_top": null
+    },
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "mobility",
+      "fixture_check": "pass",
+      "overlap_top": "mobility",
+      "project_id": "crossings",
+      "tfidf_top": "mobility"
+    },
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "mobility",
+      "fixture_check": "pass",
+      "overlap_top": "mobility",
+      "project_id": "crossings_copy",
+      "tfidf_top": "mobility"
+    },
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "parks",
+      "fixture_check": "pass",
+      "overlap_top": "parks",
+      "project_id": "green",
+      "tfidf_top": "parks"
+    },
+    {
+      "actual_decision": "abstain",
+      "expect_abstain": true,
+      "expected_top": null,
+      "fixture_check": "pass",
+      "overlap_top": "digital",
+      "project_id": "mixed",
+      "tfidf_top": "mobility"
+    },
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "digital",
+      "fixture_check": "pass",
+      "overlap_top": "digital",
+      "project_id": "permits",
+      "tfidf_top": "digital"
+    },
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "water",
+      "fixture_check": "pass",
+      "overlap_top": "water",
+      "project_id": "pipes",
+      "tfidf_top": "water"
+    },
+    {
+      "actual_decision": "review_candidate",
+      "expect_abstain": false,
+      "expected_top": "energy",
+      "fixture_check": "pass",
+      "overlap_top": "energy",
+      "project_id": "solar",
+      "tfidf_top": "energy"
+    },
+    {
+      "actual_decision": "abstain",
+      "expect_abstain": true,
+      "expected_top": null,
+      "fixture_check": "pass",
+      "overlap_top": null,
+      "project_id": "unknown",
+      "tfidf_top": null
+    }
+  ],
+  "classifier_trained": false,
+  "cross_validation": null,
+  "data_kind": "synthetic",
+  "duplicate_text_groups": [
+    [
+      "crossings",
+      "crossings_copy"
+    ]
+  ],
+  "evaluation_kind": "functional_synthetic_fixture_checks",
+  "expected_category_counts": {
+    "administration": 1,
+    "environment": 2,
+    "transport": 2,
+    "utilities": 2
+  },
+  "independent_label_source": false,
+  "metrics_status": "not_reported",
+  "reasons": [
+    "Expectations are authored synthetic regression checks, not independent relevance judgments.",
+    "Small, imbalanced category support cannot establish generalization.",
+    "Similarity ranking is not supervised classification; no resampling or classifier fit occurs."
+  ],
+  "supervised_metrics": null,
+  "unique_text_groups": 9
+}

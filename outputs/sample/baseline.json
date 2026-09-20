@@ -1,0 +1,265 @@
+{
+  "data_kind": "synthetic",
+  "projects": {
+    "bins": [
+      {
+        "kpi_id": "waste",
+        "score": 0.7
+      },
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "blank": [
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "crossings": [
+      {
+        "kpi_id": "mobility",
+        "score": 0.428571428571
+      },
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "crossings_copy": [
+      {
+        "kpi_id": "mobility",
+        "score": 0.428571428571
+      },
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "green": [
+      {
+        "kpi_id": "parks",
+        "score": 0.636363636364
+      },
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "mixed": [
+      {
+        "kpi_id": "digital",
+        "score": 0.111111111111
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.083333333333
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "permits": [
+      {
+        "kpi_id": "digital",
+        "score": 0.777777777778
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ],
+    "pipes": [
+      {
+        "kpi_id": "water",
+        "score": 0.545454545455
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0625
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.058823529412
+      },
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      }
+    ],
+    "solar": [
+      {
+        "kpi_id": "energy",
+        "score": 0.636363636364
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0625
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0625
+      },
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      }
+    ],
+    "unknown": [
+      {
+        "kpi_id": "digital",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "energy",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "mobility",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "parks",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "waste",
+        "score": 0.0
+      },
+      {
+        "kpi_id": "water",
+        "score": 0.0
+      }
+    ]
+  }
+}

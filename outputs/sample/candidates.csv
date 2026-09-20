@@ -1,0 +1,31 @@
+project_id,rank,kpi_id,category,score,decision,reason,margin,shared_terms,data_kind
+bins,1,waste,environment,0.904250747773,review_candidate,candidate_requires_review,0.904250747773,"[{""contribution"": 0.200944610616, ""term"": ""recycling""}, {""contribution"": 0.200944610616, ""term"": ""waste""}, {""contribution"": 0.100472305308, ""term"": ""bins""}, {""contribution"": 0.100472305308, ""term"": ""collection""}, {""contribution"": 0.100472305308, ""term"": ""landfill""}, {""contribution"": 0.100472305308, ""term"": ""material""}, {""contribution"": 0.100472305308, ""term"": ""recovery""}]",synthetic
+bins,2,digital,administration,0.0,review_candidate,candidate_requires_review,0.904250747773,[],synthetic
+bins,3,energy,utilities,0.0,review_candidate,candidate_requires_review,0.904250747773,[],synthetic
+blank,1,digital,administration,0.0,abstain,empty_text,0.0,[],synthetic
+blank,2,energy,utilities,0.0,abstain,empty_text,0.0,[],synthetic
+blank,3,mobility,transport,0.0,abstain,empty_text,0.0,[],synthetic
+crossings,1,mobility,transport,0.716960299154,review_candidate,candidate_requires_review,0.716960299154,"[{""contribution"": 0.119493383192, ""term"": ""bicycle""}, {""contribution"": 0.119493383192, ""term"": ""crossings""}, {""contribution"": 0.119493383192, ""term"": ""cycling""}, {""contribution"": 0.119493383192, ""term"": ""lanes""}, {""contribution"": 0.119493383192, ""term"": ""pedestrian""}, {""contribution"": 0.119493383192, ""term"": ""walking""}]",synthetic
+crossings,2,digital,administration,0.0,review_candidate,candidate_requires_review,0.716960299154,[],synthetic
+crossings,3,energy,utilities,0.0,review_candidate,candidate_requires_review,0.716960299154,[],synthetic
+crossings_copy,1,mobility,transport,0.716960299154,review_candidate,candidate_requires_review,0.716960299154,"[{""contribution"": 0.119493383192, ""term"": ""bicycle""}, {""contribution"": 0.119493383192, ""term"": ""crossings""}, {""contribution"": 0.119493383192, ""term"": ""cycling""}, {""contribution"": 0.119493383192, ""term"": ""lanes""}, {""contribution"": 0.119493383192, ""term"": ""pedestrian""}, {""contribution"": 0.119493383192, ""term"": ""walking""}]",synthetic
+crossings_copy,2,digital,administration,0.0,review_candidate,candidate_requires_review,0.716960299154,[],synthetic
+crossings_copy,3,energy,utilities,0.0,review_candidate,candidate_requires_review,0.716960299154,[],synthetic
+green,1,parks,environment,0.878310065654,review_candidate,candidate_requires_review,0.878310065654,"[{""contribution"": 0.19518001459, ""term"": ""green""}, {""contribution"": 0.19518001459, ""term"": ""space""}, {""contribution"": 0.097590007295, ""term"": ""parks""}, {""contribution"": 0.097590007295, ""term"": ""public""}, {""contribution"": 0.097590007295, ""term"": ""recreation""}, {""contribution"": 0.097590007295, ""term"": ""trees""}, {""contribution"": 0.097590007295, ""term"": ""urban""}]",synthetic
+green,2,digital,administration,0.0,review_candidate,candidate_requires_review,0.878310065654,[],synthetic
+green,3,energy,utilities,0.0,review_candidate,candidate_requires_review,0.878310065654,[],synthetic
+mixed,1,mobility,transport,0.240016396597,abstain,ambiguous_margin,0.023508635161,"[{""contribution"": 0.240016396597, ""term"": ""access""}]",synthetic
+mixed,2,digital,administration,0.216507761436,abstain,ambiguous_margin,0.023508635161,"[{""contribution"": 0.216507761436, ""term"": ""access""}]",synthetic
+mixed,3,energy,utilities,0.0,abstain,ambiguous_margin,0.023508635161,[],synthetic
+permits,1,digital,administration,0.898143084715,review_candidate,candidate_requires_review,0.898143084715,"[{""contribution"": 0.199587352159, ""term"": ""citizen""}, {""contribution"": 0.199587352159, ""term"": ""digital""}, {""contribution"": 0.099793676079, ""term"": ""applications""}, {""contribution"": 0.099793676079, ""term"": ""online""}, {""contribution"": 0.099793676079, ""term"": ""permits""}, {""contribution"": 0.099793676079, ""term"": ""processing""}, {""contribution"": 0.099793676079, ""term"": ""service""}]",synthetic
+permits,2,energy,utilities,0.0,review_candidate,candidate_requires_review,0.898143084715,[],synthetic
+permits,3,mobility,transport,0.0,review_candidate,candidate_requires_review,0.898143084715,[],synthetic
+pipes,1,water,utilities,0.89320002902,review_candidate,candidate_requires_review,0.849445831265,"[{""contribution"": 0.466857893134, ""term"": ""water""}, {""contribution"": 0.155619297711, ""term"": ""network""}, {""contribution"": 0.077809648856, ""term"": ""leakage""}, {""contribution"": 0.077809648856, ""term"": ""losses""}, {""contribution"": 0.077809648856, ""term"": ""pipes""}, {""contribution"": 0.037293891607, ""term"": ""reduce""}]",synthetic
+pipes,2,waste,environment,0.043754197755,review_candidate,candidate_requires_review,0.849445831265,"[{""contribution"": 0.043754197755, ""term"": ""reduce""}]",synthetic
+pipes,3,energy,utilities,0.041835862679,review_candidate,candidate_requires_review,0.849445831265,"[{""contribution"": 0.041835862679, ""term"": ""reduce""}]",synthetic
+solar,1,energy,utilities,0.746829068498,review_candidate,candidate_requires_review,0.696775423489,"[{""contribution"": 0.199705699451, ""term"": ""efficient""}, {""contribution"": 0.099852849726, ""term"": ""consumption""}, {""contribution"": 0.099852849726, ""term"": ""electricity""}, {""contribution"": 0.099852849726, ""term"": ""lighting""}, {""contribution"": 0.099852849726, ""term"": ""panels""}, {""contribution"": 0.099852849726, ""term"": ""solar""}, {""contribution"": 0.047859120418, ""term"": ""reduce""}]",synthetic
+solar,2,waste,environment,0.050053645009,review_candidate,candidate_requires_review,0.696775423489,"[{""contribution"": 0.050053645009, ""term"": ""reduce""}]",synthetic
+solar,3,water,utilities,0.04266322564,review_candidate,candidate_requires_review,0.696775423489,"[{""contribution"": 0.04266322564, ""term"": ""reduce""}]",synthetic
+unknown,1,digital,administration,0.0,abstain,out_of_vocabulary,0.0,[],synthetic
+unknown,2,energy,utilities,0.0,abstain,out_of_vocabulary,0.0,[],synthetic
+unknown,3,mobility,transport,0.0,abstain,out_of_vocabulary,0.0,[],synthetic

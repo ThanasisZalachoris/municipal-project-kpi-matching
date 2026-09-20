@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic",
+  "policy": {"top_k": 3, "min_score": 0.12, "min_margin": 0.05},
+  "catalogue": [
+    {"id":"mobility","name":"Safe active mobility","category":"transport","description":"Pedestrian crossings bicycle lanes walking cycling road safety access."},
+    {"id":"water","name":"Water network efficiency","category":"utilities","description":"Water pipes network leakage repairs reduce water losses supply."},
+    {"id":"waste","name":"Waste recycling services","category":"environment","description":"Waste recycling collection bins material recovery reduce landfill."},
+    {"id":"energy","name":"Energy efficient facilities","category":"utilities","description":"Solar panels electricity consumption efficient lighting reduce energy demand."},
+    {"id":"parks","name":"Urban green space","category":"environment","description":"Public parks trees planting accessible green space recreation."},
+    {"id":"digital","name":"Digital citizen services","category":"administration","description":"Online applications digital permits citizen service processing access."}
+  ],
+  "projects": [
+    {"id":"crossings","text":"Repair pedestrian crossings and bicycle lanes for safer walking and cycling."},
+    {"id":"crossings_copy","text":"REPAIR pedestrian crossings and bicycle lanes for safer walking and cycling!"},
+    {"id":"pipes","text":"Replace water pipes and repair network leakage to reduce water losses."},
+    {"id":"bins","text":"Waste recycling collection bins for material recovery and reduced landfill."},
+    {"id":"solar","text":"Install solar panels and efficient lighting to reduce electricity consumption."},
+    {"id":"green","text":"Expand public parks and plant trees for urban green space recreation."},
+    {"id":"permits","text":"Online applications and digital permits for citizen service processing."},
+    {"id":"mixed","text":"access"},
+    {"id":"unknown","text":"Quantum cryptography calibration"},
+    {"id":"blank","text":""}
+  ],
+  "expectations": [
+    {"project_id":"crossings","expected_top":"mobility","expect_abstain":false},
+    {"project_id":"crossings_copy","expected_top":"mobility","expect_abstain":false},
+    {"project_id":"pipes","expected_top":"water","expect_abstain":false},
+    {"project_id":"bins","expected_top":"waste","expect_abstain":false},
+    {"project_id":"solar","expected_top":"energy","expect_abstain":false},
+    {"project_id":"green","expected_top":"parks","expect_abstain":false},
+    {"project_id":"permits","expected_top":"digital","expect_abstain":false},
+    {"project_id":"mixed","expected_top":null,"expect_abstain":true},
+    {"project_id":"unknown","expected_top":null,"expect_abstain":true},
+    {"project_id":"blank","expected_top":null,"expect_abstain":true}
+  ]
+}

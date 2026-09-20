@@ -1,0 +1,38 @@
+{
+  "catalogue_sha256": "fbd98362521e43ae121050050215a6ae9747e8f7c7cedef73ceb05f183f6976c",
+  "data_kind": "synthetic",
+  "fit_scope": "KPI catalogue only; query projects never fit vocabulary or IDF.",
+  "fixture_failures": 0,
+  "input_sha256": "0de7d64bfb2b299bfa8ddc5e80bd4c43d424f80fc59650eca628bc4c0a1c6efe",
+  "kpis": 6,
+  "policy": {
+    "min_margin": 0.05,
+    "min_score": 0.12,
+    "top_k": 3
+  },
+  "preprocessing_version": "unicode-word-v1",
+  "projects": 10,
+  "requires_human_review": true,
+  "status": "fixture_checks_passed",
+  "stopwords": [
+    "a",
+    "an",
+    "and",
+    "are",
+    "as",
+    "at",
+    "be",
+    "by",
+    "for",
+    "from",
+    "in",
+    "is",
+    "of",
+    "on",
+    "or",
+    "the",
+    "to",
+    "with"
+  ],
+  "vocabulary_size": 54
+}

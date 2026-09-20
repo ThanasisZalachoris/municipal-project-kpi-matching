@@ -1,0 +1,1177 @@
+{
+  "data_kind": "synthetic",
+  "projects": {
+    "bins": {
+      "all_scores": [
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.904250747773,
+          "shared_terms": [
+            {
+              "contribution": 0.200944610616,
+              "term": "recycling"
+            },
+            {
+              "contribution": 0.200944610616,
+              "term": "waste"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "bins"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "collection"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "landfill"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "material"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "recovery"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "rank": 1,
+          "score": 0.904250747773,
+          "shared_terms": [
+            {
+              "contribution": 0.200944610616,
+              "term": "recycling"
+            },
+            {
+              "contribution": 0.200944610616,
+              "term": "waste"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "bins"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "collection"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "landfill"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "material"
+            },
+            {
+              "contribution": 0.100472305308,
+              "term": "recovery"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 7,
+      "margin": 0.904250747773,
+      "oov_terms": [
+        "reduced"
+      ],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "waste",
+      "token_count": 8,
+      "top_score": 0.904250747773
+    },
+    "blank": {
+      "all_scores": [
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 1,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "abstain",
+      "known_token_count": 0,
+      "margin": 0.0,
+      "oov_terms": [],
+      "reason": "empty_text",
+      "suggested_kpi": null,
+      "token_count": 0,
+      "top_score": 0.0
+    },
+    "crossings": {
+      "all_scores": [
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.716960299154,
+          "shared_terms": [
+            {
+              "contribution": 0.119493383192,
+              "term": "bicycle"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "crossings"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "cycling"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "lanes"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "pedestrian"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "walking"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "rank": 1,
+          "score": 0.716960299154,
+          "shared_terms": [
+            {
+              "contribution": 0.119493383192,
+              "term": "bicycle"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "crossings"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "cycling"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "lanes"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "pedestrian"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "walking"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 6,
+      "margin": 0.716960299154,
+      "oov_terms": [
+        "repair",
+        "safer"
+      ],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "mobility",
+      "token_count": 8,
+      "top_score": 0.716960299154
+    },
+    "crossings_copy": {
+      "all_scores": [
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.716960299154,
+          "shared_terms": [
+            {
+              "contribution": 0.119493383192,
+              "term": "bicycle"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "crossings"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "cycling"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "lanes"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "pedestrian"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "walking"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "rank": 1,
+          "score": 0.716960299154,
+          "shared_terms": [
+            {
+              "contribution": 0.119493383192,
+              "term": "bicycle"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "crossings"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "cycling"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "lanes"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "pedestrian"
+            },
+            {
+              "contribution": 0.119493383192,
+              "term": "walking"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 6,
+      "margin": 0.716960299154,
+      "oov_terms": [
+        "repair",
+        "safer"
+      ],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "mobility",
+      "token_count": 8,
+      "top_score": 0.716960299154
+    },
+    "green": {
+      "all_scores": [
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.878310065654,
+          "shared_terms": [
+            {
+              "contribution": 0.19518001459,
+              "term": "green"
+            },
+            {
+              "contribution": 0.19518001459,
+              "term": "space"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "parks"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "public"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "recreation"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "trees"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "urban"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "rank": 1,
+          "score": 0.878310065654,
+          "shared_terms": [
+            {
+              "contribution": 0.19518001459,
+              "term": "green"
+            },
+            {
+              "contribution": 0.19518001459,
+              "term": "space"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "parks"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "public"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "recreation"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "trees"
+            },
+            {
+              "contribution": 0.097590007295,
+              "term": "urban"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 7,
+      "margin": 0.878310065654,
+      "oov_terms": [
+        "expand",
+        "plant"
+      ],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "parks",
+      "token_count": 9,
+      "top_score": 0.878310065654
+    },
+    "mixed": {
+      "all_scores": [
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.240016396597,
+          "shared_terms": [
+            {
+              "contribution": 0.240016396597,
+              "term": "access"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.216507761436,
+          "shared_terms": [
+            {
+              "contribution": 0.216507761436,
+              "term": "access"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "rank": 1,
+          "score": 0.240016396597,
+          "shared_terms": [
+            {
+              "contribution": 0.240016396597,
+              "term": "access"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 2,
+          "score": 0.216507761436,
+          "shared_terms": [
+            {
+              "contribution": 0.216507761436,
+              "term": "access"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "abstain",
+      "known_token_count": 1,
+      "margin": 0.023508635161,
+      "oov_terms": [],
+      "reason": "ambiguous_margin",
+      "suggested_kpi": null,
+      "token_count": 1,
+      "top_score": 0.240016396597
+    },
+    "permits": {
+      "all_scores": [
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.898143084715,
+          "shared_terms": [
+            {
+              "contribution": 0.199587352159,
+              "term": "citizen"
+            },
+            {
+              "contribution": 0.199587352159,
+              "term": "digital"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "applications"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "online"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "permits"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "processing"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "service"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 1,
+          "score": 0.898143084715,
+          "shared_terms": [
+            {
+              "contribution": 0.199587352159,
+              "term": "citizen"
+            },
+            {
+              "contribution": 0.199587352159,
+              "term": "digital"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "applications"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "online"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "permits"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "processing"
+            },
+            {
+              "contribution": 0.099793676079,
+              "term": "service"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 7,
+      "margin": 0.898143084715,
+      "oov_terms": [],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "digital",
+      "token_count": 7,
+      "top_score": 0.898143084715
+    },
+    "pipes": {
+      "all_scores": [
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.89320002902,
+          "shared_terms": [
+            {
+              "contribution": 0.466857893134,
+              "term": "water"
+            },
+            {
+              "contribution": 0.155619297711,
+              "term": "network"
+            },
+            {
+              "contribution": 0.077809648856,
+              "term": "leakage"
+            },
+            {
+              "contribution": 0.077809648856,
+              "term": "losses"
+            },
+            {
+              "contribution": 0.077809648856,
+              "term": "pipes"
+            },
+            {
+              "contribution": 0.037293891607,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.043754197755,
+          "shared_terms": [
+            {
+              "contribution": 0.043754197755,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.041835862679,
+          "shared_terms": [
+            {
+              "contribution": 0.041835862679,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "rank": 1,
+          "score": 0.89320002902,
+          "shared_terms": [
+            {
+              "contribution": 0.466857893134,
+              "term": "water"
+            },
+            {
+              "contribution": 0.155619297711,
+              "term": "network"
+            },
+            {
+              "contribution": 0.077809648856,
+              "term": "leakage"
+            },
+            {
+              "contribution": 0.077809648856,
+              "term": "losses"
+            },
+            {
+              "contribution": 0.077809648856,
+              "term": "pipes"
+            },
+            {
+              "contribution": 0.037293891607,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "rank": 2,
+          "score": 0.043754197755,
+          "shared_terms": [
+            {
+              "contribution": 0.043754197755,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 3,
+          "score": 0.041835862679,
+          "shared_terms": [
+            {
+              "contribution": 0.041835862679,
+              "term": "reduce"
+            }
+          ]
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 7,
+      "margin": 0.849445831265,
+      "oov_terms": [
+        "repair",
+        "replace"
+      ],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "water",
+      "token_count": 9,
+      "top_score": 0.89320002902
+    },
+    "solar": {
+      "all_scores": [
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.746829068498,
+          "shared_terms": [
+            {
+              "contribution": 0.199705699451,
+              "term": "efficient"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "consumption"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "electricity"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "lighting"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "panels"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "solar"
+            },
+            {
+              "contribution": 0.047859120418,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.050053645009,
+          "shared_terms": [
+            {
+              "contribution": 0.050053645009,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.04266322564,
+          "shared_terms": [
+            {
+              "contribution": 0.04266322564,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 1,
+          "score": 0.746829068498,
+          "shared_terms": [
+            {
+              "contribution": 0.199705699451,
+              "term": "efficient"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "consumption"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "electricity"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "lighting"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "panels"
+            },
+            {
+              "contribution": 0.099852849726,
+              "term": "solar"
+            },
+            {
+              "contribution": 0.047859120418,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "rank": 2,
+          "score": 0.050053645009,
+          "shared_terms": [
+            {
+              "contribution": 0.050053645009,
+              "term": "reduce"
+            }
+          ]
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "rank": 3,
+          "score": 0.04266322564,
+          "shared_terms": [
+            {
+              "contribution": 0.04266322564,
+              "term": "reduce"
+            }
+          ]
+        }
+      ],
+      "decision": "review_candidate",
+      "known_token_count": 7,
+      "margin": 0.696775423489,
+      "oov_terms": [
+        "install"
+      ],
+      "reason": "candidate_requires_review",
+      "suggested_kpi": "energy",
+      "token_count": 8,
+      "top_score": 0.746829068498
+    },
+    "unknown": {
+      "all_scores": [
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "parks",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "environment",
+          "kpi_id": "waste",
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "water",
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "candidates": [
+        {
+          "category": "administration",
+          "kpi_id": "digital",
+          "rank": 1,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "utilities",
+          "kpi_id": "energy",
+          "rank": 2,
+          "score": 0.0,
+          "shared_terms": []
+        },
+        {
+          "category": "transport",
+          "kpi_id": "mobility",
+          "rank": 3,
+          "score": 0.0,
+          "shared_terms": []
+        }
+      ],
+      "decision": "abstain",
+      "known_token_count": 0,
+      "margin": 0.0,
+      "oov_terms": [
+        "calibration",
+        "cryptography",
+        "quantum"
+      ],
+      "reason": "out_of_vocabulary",
+      "suggested_kpi": null,
+      "token_count": 3,
+      "top_score": 0.0
+    }
+  }
+}
